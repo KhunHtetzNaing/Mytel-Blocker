@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Mytel" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/red_500</item>
+        <item name="colorPrimaryDark">@color/red_500</item>
+        <item name="colorAccent">@color/green</item>
+        <!-- Customize your theme here. -->
+        <item name="fontFamily">@font/mm</item>
+        <item name="colorControlActivated">@color/green</item>
+    </style>
+
+</resources>

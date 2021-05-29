@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:icon="@drawable/ic_block" app:title="မိုင်တဲအဝင်ခေါ်ဆိုမှုပိတ်ပင်တားဆီးသူ 🚫">
+        <Preference
+            app:summary="@string/status_need_permission"
+            android:key="status"
+            app:title="@string/status_title"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:icon="@drawable/ic_noti" app:title="@string/noti_title">
+
+        <CheckBoxPreference
+            app:summary="@string/notice_when_incoming_summary"
+            app:key="show_noti"
+            app:title="@string/notice_when_incoming_title" />
+
+        <EditTextPreference
+            app:dependency="show_noti"
+            app:key="noti_title"
+            app:title="@string/notice_when_incoming_custom_title"
+            app:defaultValue="@string/notice_when_incoming_custom_default"
+            app:useSimpleSummaryProvider="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:icon="@drawable/ic_info" app:title="@string/about">
+        <Preference app:title="@string/dev" app:summary="@string/dev_name"/>
+        <Preference app:title="@string/version" app:summary="@string/version_name"/>
+        <Preference app:title="@string/date" app:summary="@string/date_name"/>
+        <Preference app:title="@string/source_code" app:summary="@string/source_code_summary"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

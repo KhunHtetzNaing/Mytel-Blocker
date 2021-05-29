@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        app:actionViewClass="androidx.appcompat.widget.SwitchCompat"
+        android:id="@+id/app_bar_switch"
+        android:title="@string/status_title"
+        app:showAsAction="always" />
+
+</menu>

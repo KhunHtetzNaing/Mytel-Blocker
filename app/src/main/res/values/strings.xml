@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Mytel 📵</string>
+    <string name="mytel_prefix">097</string>
+    <string name="source_code_url">https://github.com/KhunHtetzNaing/Mytel-Blocker</string>
+
+<!--    Status-->
+    <string name="status_title">အခြေအနေ</string>
+    <string name="status_running">မိုင်တဲဖုန်းနံပါတ်အားလုံးကို ပိတ်ပင်တားဆီးထားသည်။</string>
+    <string name="status_need_permission">လုပ်ဆောင်ချက်များ ခွင့်ပြုပေးရန်လိုအပ်နေပါသည်။</string>
+
+<!--    Notification-->
+    <string name="noti_title">အသိပေးချက် 📣</string>
+    <string name="notice_when_incoming_summary">ပိတ်ပင်တားဆီးလိုက်သည့်အဝင်ခေါ်ဆိုမှုများကိုအသိပေးရန်။</string>
+    <string name="notice_when_incoming_title">အဝင်ခေါ်ဆိုမှုကိုအသိပေးရန် 🔔</string>
+    <string name="notice_when_incoming_custom_title">အသိပေးချက်ခေါင်းစဉ် 📱</string>
+    <string name="notice_when_incoming_custom_default">အဘဘောမ ဖုန်းခေါ်ထားပါသည်။</string>
+
+<!--    Permission-->
+    <string name="req_permssion_msg">မိုင်တဲအဝင်ခေါ်ဆိုမှုများကိုပိတ်ပင်တားဆီးရန် အောက်ပါလုပ်ဆောင်ချက်များကိုခွင့်ပြုပေးရန် လိုအပ်ပါသည်။</string>
+    <string name="READ_PHONE_STATE">ဖုန်းအဝင်ခေါ်ဆိုမှုကိုသိနိုင်ရန် လိုအပ်ပါသည်။</string>
+    <string name="READ_CALL_LOG">ဝင်လာသောနံပါတ်မှာ မိုင်တဲဟုတ်၊ မဟုတ် စစ်ဆေးရန်လိုအပ်ပါသည်။</string>
+    <string name="ANSWER_PHONE_CALLS">မိုင်တဲနံပါတ်ဖြစ်ပါက ဖုန်းကိုအလိုအလျောက်ချပစ်ရန် လိုအပ်ပါသည်။</string>
+    <string name="allow">ခွင့်ပြုမည်</string>
+    <string name="no">မလုပ်ပါ</string>
+
+<!--    About-->
+    <string name="about">အက်ပလီကေးရှင်းအကြောင်း</string>
+    <string name="dev">ဖန်တီးသူ #⃣</string>
+    <string name="dev_name">စောက်ချောကြီး</string>
+    <string name="version">ဗားရှင်း 📊</string>
+    <string name="version_name">၁.၀</string>
+    <string name="date">ရက်စွဲ 📅</string>
+    <string name="date_name">၂၉ ရက်၊ ၅ လ၊ ၂၀၂၁ ခုနှစ်</string>
+    <string name="source_code">အရင်းအမြစ်ကုဒ် 📂</string>
+    <string name="source_code_summary">အက်ပလီကေးရှင်း၏ အရင်းအမြစ်ကုဒ်ကိုရယူရန်</string>
+</resources>
